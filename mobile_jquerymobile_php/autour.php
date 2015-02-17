@@ -19,7 +19,7 @@
 	</div>
 	<div data-role="content">	
 		
-		<center> Client mobile pour openerp Developpez en <p>jquerymobile<p>2013</center>
+		<center> Client mobile par Ait-Mlouk Addi en <p>jquerymobile<p>2013</center>
 	
 	</div>
 	<div data-role="footer" data-theme="b">

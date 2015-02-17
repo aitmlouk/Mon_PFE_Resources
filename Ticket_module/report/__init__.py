@@ -3,7 +3,7 @@
 #
 #    OpenERP, Open Source Management Solution    
 #    Copyright (C) 2004-2010 Tiny SPRL (http://tiny.be). All Rights Reserved
-#    
+#    Ait-Mlouk Addi  http://aitmlouk.esy.es/
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by

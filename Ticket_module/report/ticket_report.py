@@ -3,7 +3,7 @@
 #
 #    OpenERP, Open Source Management Solution
 #    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
-#
+#    Ait-Mlouk Addi  http://aitmlouk.esy.es/
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
 #    published by the Free Software Foundation, either version 3 of the
@@ -39,5 +39,5 @@ class service_ticket(report_sxw.rml_parse):
         return self.line_no
 
 
-report_sxw.report_sxw('report.service.ticket', 'service.ticket', 'addons/Ticket_v2/report/ticket.rml', parser=service_ticket, header="external")
+report_sxw.report_sxw('report.service.ticket', 'service.ticket', 'addons/Ticket_module/report/ticket.rml', parser=service_ticket, header="external")
 

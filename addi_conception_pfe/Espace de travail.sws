@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model ID="{07DA64B3-2F88-40BB-BED4-C21B08AF9A74}" Loaded="No" Name="Définition de cas d&#39;utilisation_admin_systeme" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_1.moo"/>
+		<Model ID="{27A83838-3E63-4E33-A4A4-5234BA3C63DB}" Loaded="No" Name="Définition de cas d&#39;utilisation_global" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_global.moo"/>
+		<Model Expanded="Yes" ID="{41115882-1FF0-4930-87B0-B54A03DCBAA5}" Name="Définition de cas d&#39;utilisation_vente" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_vente.moo"/>
+		<Model Expanded="Yes" ID="{95556DC3-AB52-439F-973D-A9C59D847B5B}" Name="Définition de cas d&#39;utilisation_vente_detaille" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_vente_detaille.moo"/>
+		<Model Expanded="Yes" ID="{30443A33-F7B2-4603-8575-79E0F9E78727}" Name="Définition de cas d&#39;utilisation_achat" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_achat.moo"/>
+		<Model Expanded="Yes" ID="{564DED78-1AE2-4808-88E0-B166E800034E}" Name="Définition de cas d&#39;utilisation_achat_detaille" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_achat detaille.moo"/>
+		<Model ID="{5204CF38-3897-474B-AD4F-C44C71E79C55}" Loaded="No" Name="ModeleProcessusMetiers_vente" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="ModeleProcessusMetiers_vent.mpm"/>
+		<Model ID="{8392E89C-6D21-4A93-B1D7-49B833137310}" Loaded="No" Name="ModeleProcessusMetiers_achat" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="ModeleProcessusMetiers_vente.mpm"/>
+		<Model ID="{B3EBCD1F-561F-465F-85A0-2F802D66CCC3}" Loaded="No" Name="Processus métiers_1_comptablite" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="Processus métiers_1_comptable.mpm"/>
+		<Model ID="{745D6365-2E6F-4A4B-83F7-968BC7CA3EED}" Loaded="No" Name="Diagramme de séquence UML_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de séquence UML_vente.moo"/>
+		<Model Expanded="Yes" ID="{DC8B42C2-5915-4D26-9821-436E57732EEE}" Loaded="No" Name="Diagramme de séquence UML_achat" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de séquence UML_achat.moo"/>
+		<Model Expanded="Yes" ID="{48CC38FB-C4CB-46F0-90C5-760CB8B079CA}" Loaded="No" Name="Diagramme de classes_global" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classes_global.moo"/>
+		<Model Expanded="Yes" ID="{CBB852A5-11EF-4BDD-AA00-9F4F0F1FBB9E}" Loaded="No" Name="Diagramme de classes_detaille" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classes_1.moo"/>
+		<Model Expanded="Yes" ID="{D7C5500A-2900-442C-B93D-D777F8D0E972}" Loaded="No" Name="Diagramme de classes_modifier" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classes_modifier.moo"/>
+		<Model Expanded="Yes" ID="{302E58C0-03F0-4744-BB5E-7BA262B8F2D9}" Loaded="No" Name="Diagramme de classes_avec_tt_les_liens" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classes_avec_tt_les_liens.moo"/>
+		<Model Expanded="Yes" ID="{A83E17F0-EE11-4A6A-8289-4F0FCA9A8823}" Loaded="No" Name="Diagramme de classes_ticket" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classes_ticket.moo"/>
+		<Model Expanded="Yes" ID="{14EA6FF8-DBD3-4C10-A16E-369A4F612150}" Loaded="No" Name="ModeleOrienteObjet_4" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ModeleOrienteObjet_composant.moo"/>
+		<Model Expanded="Yes" ID="{4FC3609C-6A55-4471-9C31-B94D0278D213}" Loaded="No" Name="ModeleOrienteObjet_deploiement" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ModeleOrienteObjet_deploement.moo"/>
+		<Model Expanded="Yes" ID="{0EED044F-268D-4CF6-BE29-4E2616C57509}" Loaded="No" Name="Architecture d&#39;application_1" Type="{5215C79E-A9A1-4738-A627-36DA432EFE29}" URL="Architecture d&#39;application_1.mae"/>
+		<Model ID="{92474F5C-76AB-4728-AF48-A39FCD9A46A3}" Loaded="No" Name="ModeleTraitements_1_context" Type="{8B5D3680-2056-4280-8B77-FBE8472CB1A8}" URL="ModeleTraitements_system_cible.mtm"/>
+		<Model ID="{9ABC33C0-10F4-4C40-9E92-F436F54A36EE}" Loaded="No" Name="Définition de cas d&#39;utilisation_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation_context.moo"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

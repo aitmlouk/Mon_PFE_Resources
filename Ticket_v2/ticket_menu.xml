@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+
+    <!-- Menu principale -->
+    
+    <menuitem name="Service Technique" id="menu_service_ticket" />
+     
+    <!-- menu de ticket -->
+    
+    <menuitem name="Les Tickets" id="menu_service_ticket_1" parent="menu_service_ticket" sequence="1" />
+    <menuitem name="Ticket" id="menu_service_tick" parent="menu_service_ticket_1" action="action_service_ticket"/>
+    <menuitem name="Intervention" id="menu_service_intervent" parent="menu_service_ticket_1" action="action_service_intervention"/>
+  
+  </data>
+</openerp>

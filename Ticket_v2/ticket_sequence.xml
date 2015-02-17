@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data noupdate="0">
+    
+    	<!-- Sequences for tickets -->
+    	
+        <record id="seq_type_service_ticket" model="ir.sequence.type">
+            <field name="name">Gestion des Tickets</field>
+            <field name="code">service.ticket</field>
+        </record>
+        
+        <record id="seq_service_ticket" model="ir.sequence">
+            <field name="name">Gestion des Tickets</field>
+            <field name="code">service.ticket</field>
+            <field name="prefix">TICKET-</field>
+            <field name="padding">5</field>
+        </record>
+        
+    </data>
+</openerp>

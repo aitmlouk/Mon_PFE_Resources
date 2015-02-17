@@ -1,0 +1,20 @@
+HTML, BODY { padding: 0; border: 0px none; }
+
+/* Stylish FieldSet */
+fieldset { -moz-border-radius: 7px; border: 1px #dddddd solid; padding: 10px; width: 330px; margin-top: 10px; }
+
+fieldset legend { border: 1px #1a6f93 solid; color: black; font: 13px Verdana; padding: 2 5 2 5; -moz-border-radius: 3px; }
+
+/* Input text */
+input { margin: 5px; padding: 0px; float: left; border: 1px solid #cdcdcd; background-color: white; -moz-border-radius: 2px; }
+
+/* 'Login' Button */
+#submit { margin: 5px; padding: 0px; float: left; width: 50px; background-color: white; }
+
+#error_notification { border: 1px #A25965 solid; height: auto; padding: 4px; background: #F8F0F1; text-align: center; -moz-border-radius: 3px; }
+
+#login_response { overflow: auto; }
+ 
+#ajax_loading { display: none; font-size: 12px; font-family: Tahoma; }
+
+#logged_in { border: 1px solid #dddddd; -moz-border-radius: 3px; padding: 5px; width: 500px; }

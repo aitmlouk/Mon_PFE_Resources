@@ -1,0 +1,3 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_service_ticket","service.ticket","model_service_ticket","base.group_user",1,0,0,0
+"access_service_intervention","service.intervention","model_service_intervention","base.group_user",1,0,0,0

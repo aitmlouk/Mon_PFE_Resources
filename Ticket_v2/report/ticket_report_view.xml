@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+    	<report auto="False" id="report_service_ticket" model="service.ticket" name="service.ticket"
+                rml="Ticket_v2/report/ticket.rml" string="Fiche Ticket"
+                usage="default"/>
+                
+    </data>
+</openerp>

@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{B3EBCD1F-561F-465F-85A0-2F802D66CCC3}" Label="" LastModificationDate="1371307987" Name="Processus métiers_1" Objects="28" Symbols="32" Target="Analyse" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" signature="BPM_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>B3EBCD1F-561F-465F-85A0-2F802D66CCC3</a:ObjectID>
+<a:Name>Processus métiers_1</a:Name>
+<a:Code>Processus_metiers_1</a:Code>
+<a:CreationDate>1371307226</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307822</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Business Process Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Business Process options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+DeftMsgFmt=1
+DFDNotation=0
+
+[ModelOptions\Business Process options\NamingOptionsTemplates]
+
+[ModelOptions\Business Process options\ClssNamingOptions]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMPCKG]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMPROC]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMPROC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMPROC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMDCSN]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMDCSN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMDCSN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMSYNC]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMSYNC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMSYNC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMORGN]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMORGN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMORGN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMRSRC]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMRSRC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMRSRC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMFLOW]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMFLOW\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMFLOW\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMRFLW]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMRFLW\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMRFLW\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMFRMT]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMFRMT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMFRMT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMSTRT]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMSTRT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMSTRT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMEND]
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMEND\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\BPMEND\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\FILO]
+
+[ModelOptions\Business Process options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Business Process options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Business Process options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Business Process options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Business Process options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOptionsText>
+<c:ProcessLanguage>
+<o:Shortcut Id="o3">
+<a:ObjectID>DEE346B3-D83F-4BAE-8CA5-D4CF7FCF624D</a:ObjectID>
+<a:Name>Analyse</a:Name>
+<a:Code>Analysis</a:Code>
+<a:CreationDate>1371307226</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307226</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>193F9613-15E0-4E37-AA33-D39340D3D3FF</a:TargetID>
+<a:TargetClassID>7141CE88-2107-423A-A5D4-23B73A90B769</a:TargetClassID>
+</o:Shortcut>
+</c:ProcessLanguage>
+<c:BusinessProcessDiagrams>
+<o:BusinessProcessDiagram Id="o4">
+<a:ObjectID>E1337736-8D65-43BD-9C86-5969390D95E4</a:ObjectID>
+<a:Name>DiagrammeProcessusMetiers_1</a:Name>
+<a:Code>DiagrammeProcessusMetiers_1</a:Code>
+<a:CreationDate>1371307226</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307972</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\BPM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=Yes
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgShowStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+OrganizationUnit.Stereotype=Yes
+OrganizationUnit.IconPicture=No
+OrganizationUnit_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+MessageFormat.IconPicture=No
+MessageFormat_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Resource.Stereotype=Yes
+Resource.IconPicture=No
+Resource_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+RoleAssociation.Stereotype=Yes
+RoleAssociation.DisplayName=No
+RoleAssociation.DirectionDisplay=Yes
+RoleAssociation_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+Process.QualifiedNumberID=No
+Process.Stereotype=Yes
+Process.Comment=No
+Process.ImplementedByIconDisplay=Yes
+Process.CompositeIconDisplay=Yes
+Process.IconPicture=No
+Process_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Numéro ID&quot; Attribute=&quot;QualifiedNumberID&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ProcessStart.Stereotype=Yes
+ProcessStart.DisplayName=No
+ProcessStart.IconPicture=No
+ProcessStart_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ProcessEnd.Stereotype=Yes
+ProcessEnd.DisplayName=No
+ProcessEnd.IconPicture=No
+ProcessEnd_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Decision.Stereotype=Yes
+Decision.DisplayedExpression=No
+Decision.DisplayedExpressionOrName=Yes
+Decision.IconPicture=No
+Decision_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Expression&quot; Attribute=&quot;DisplayedExpression&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom en l&amp;#39;absence de condition&quot; Attribute=&quot;DisplayedExpressionOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Synchronization.IconPicture=No
+Synchronization_SymbolLayout=
+Flow.Format=Yes
+Flow.DataList=No
+Flow.DisplayName=No
+Flow.Stereotype=Yes
+Flow_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Condition&quot; Attribute=&quot;DisplayedCondition&quot; Prefix=&quot;[&quot; Suffix=&quot;]&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;No&quot; Display=&quot;VerticalRadios&quot; &gt;[CRLF]   &lt;StandardAttribute Name=&quot;Format de message&quot; Attribute=&quot;Format&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Liste des données&quot; Attribute=&quot;DataList&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Liste des données&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+ResourceFlow.Format=Yes
+ResourceFlow.DataList=No
+ResourceFlow.DisplayName=No
+ResourceFlow.Stereotype=Yes
+ResourceFlow_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Condition&quot; Attribute=&quot;DisplayedCondition&quot; Prefix=&quot;[&quot; Suffix=&quot;]&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;No&quot; Display=&quot;VerticalRadios&quot; &gt;[CRLF]   &lt;StandardAttribute Name=&quot;Format de message&quot; Attribute=&quot;Format&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Liste des données&quot; Attribute=&quot;DataList&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Liste des données&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMORGN]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=3200
+Height=4800
+Brush color=242 242 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=200 216 248
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMFRMT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=8000
+Height=3700
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMRSRC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=4800
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=32
+Brush gradient color=248 214 109
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ROAS]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMPROC]
+QNIDFont=Arial,8,N
+QNIDFont color=0, 0, 0
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=192 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMSTRT]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=Yes
+Width=1200
+Height=1200
+Brush color=0 128 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=512
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMEND]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=Yes
+Width=1500
+Height=1500
+Brush color=0 128 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=512
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMDCSN]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DEXPFont=Arial,8,N
+DEXPFont color=0, 0, 0
+DEXNFont=Arial,8,N
+DEXNFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=Yes
+Keep size=No
+Width=4801
+Height=3001
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMSYNC]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=2400
+Height=1500
+Brush color=0 128 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMFLOW]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\BPMRFLW]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:RectangleSymbol Id="o5">
+<a:CreationDate>1371307483</a:CreationDate>
+<a:ModificationDate>1371307487</a:ModificationDate>
+<a:Rect>((-31575,14463), (-8250,-6762))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16711680</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+</o:RectangleSymbol>
+<o:RectangleSymbol Id="o6">
+<a:CreationDate>1371307500</a:CreationDate>
+<a:ModificationDate>1371307691</a:ModificationDate>
+<a:Rect>((-6599,14325), (29550,-6675))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16711680</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+<a:ManuallyResized>1</a:ManuallyResized>
+</o:RectangleSymbol>
+<o:TextSymbol Id="o7">
+<a:Text>Service Comptable</a:Text>
+<a:CreationDate>1371307839</a:CreationDate>
+<a:ModificationDate>1371307853</a:ModificationDate>
+<a:Rect>((5327,9451), (16275,13050))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:DashStyle>7</a:DashStyle>
+<a:FillColor>0</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+<a:ManuallyResized>1</a:ManuallyResized>
+</o:TextSymbol>
+<o:TextSymbol Id="o8">
+<a:Text>Gestion de la facturation du service vente ou achat</a:Text>
+<a:CreationDate>1371307873</a:CreationDate>
+<a:ModificationDate>1371307940</a:ModificationDate>
+<a:Rect>((-24748,10901), (-14550,14500))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:DashStyle>7</a:DashStyle>
+<a:FillColor>0</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+<a:ManuallyResized>1</a:ManuallyResized>
+</o:TextSymbol>
+<o:TextSymbol Id="o9">
+<a:Text>Reception d&#39;une facture</a:Text>
+<a:CreationDate>1371307972</a:CreationDate>
+<a:ModificationDate>1371307987</a:ModificationDate>
+<a:Rect>((-38249,2251), (-33450,5850))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:LineColor>0</a:LineColor>
+<a:DashStyle>7</a:DashStyle>
+<a:FillColor>0</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+</o:TextSymbol>
+<o:FlowSymbol Id="o10">
+<a:CreationDate>1371307306</a:CreationDate>
+<a:ModificationDate>1371307376</a:ModificationDate>
+<a:Rect>((-25652,1012), (-14205,1462))</a:Rect>
+<a:ListOfPoints>((-25652,1237),(-14205,1237))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o11"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o12"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o13"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o14">
+<a:CreationDate>1371307385</a:CreationDate>
+<a:ModificationDate>1371307385</a:ModificationDate>
+<a:Rect>((-34275,1082), (-29250,1542))</a:Rect>
+<a:ListOfPoints>((-34275,1337),(-29250,1287))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:StartSymbol Ref="o15"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o16"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o17">
+<a:CreationDate>1371307435</a:CreationDate>
+<a:ModificationDate>1371307435</a:ModificationDate>
+<a:Rect>((-27000,1538), (-20100,8288))</a:Rect>
+<a:ListOfPoints>((-27000,1538),(-27000,8288),(-20100,8288))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o11"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o18"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o19"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o20">
+<a:CreationDate>1371307441</a:CreationDate>
+<a:ModificationDate>1371307441</a:ModificationDate>
+<a:Rect>((-17902,8323), (-10125,8776))</a:Rect>
+<a:ListOfPoints>((-17902,8537),(-10125,8562))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o18"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EndSymbol Ref="o21"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o22"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o23">
+<a:CreationDate>1371307721</a:CreationDate>
+<a:ModificationDate>1371307784</a:ModificationDate>
+<a:Rect>((-13425,887), (-4500,1337))</a:Rect>
+<a:ListOfPoints>((-13425,1112),(-4500,1112))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o12"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o24"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o25"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o26">
+<a:CreationDate>1371307728</a:CreationDate>
+<a:ModificationDate>1371307802</a:ModificationDate>
+<a:Rect>((10200,825), (14700,1275))</a:Rect>
+<a:ListOfPoints>((10200,1050),(14700,1050))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o27"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o28"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o29"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o30">
+<a:CreationDate>1371307730</a:CreationDate>
+<a:ModificationDate>1371307814</a:ModificationDate>
+<a:Rect>((20250,975), (22575,1425))</a:Rect>
+<a:ListOfPoints>((20250,1200),(22575,1200))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o28"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o31"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o32"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o33">
+<a:CreationDate>1371307795</a:CreationDate>
+<a:ModificationDate>1371307802</a:ModificationDate>
+<a:Rect>((1950,-75), (5550,1225))</a:Rect>
+<a:ListOfPoints>((1950,-75),(3459,-75),(3459,1225),(5550,1225))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o24"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ProcessSymbol Ref="o27"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o34"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o35">
+<a:CreationDate>1371307822</a:CreationDate>
+<a:ModificationDate>1371307826</a:ModificationDate>
+<a:Rect>((25499,876), (32599,1326))</a:Rect>
+<a:ListOfPoints>((25499,1103),(32599,1099))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615680</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ProcessSymbol Ref="o31"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EndSymbol Ref="o36"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Flow Ref="o37"/>
+</c:Object>
+</o:FlowSymbol>
+<o:StartSymbol Id="o15">
+<a:CreationDate>1371307242</a:CreationDate>
+<a:ModificationDate>1371307380</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-34875,738), (-33676,1937))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>12615680</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>512</a:GradientFillMode>
+<a:GradientEndColor>12632256</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<a:KeepCenter>1</a:KeepCenter>
+<a:KeepSize>1</a:KeepSize>
+<c:Object>
+<o:ProcessStart Ref="o38"/>
+</c:Object>
+</o:StartSymbol>
+<o:ProcessSymbol Id="o11">
+<a:CreationDate>1371307246</a:CreationDate>
+<a:ModificationDate>1371307317</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-29597,238), (-21707,2237))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Process Ref="o39"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:ProcessSymbol Id="o12">
+<a:CreationDate>1371307247</a:CreationDate>
+<a:ModificationDate>1371307376</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-16546,238), (-10305,2237))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Process Ref="o40"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:ProcessSymbol Id="o18">
+<a:CreationDate>1371307249</a:CreationDate>
+<a:ModificationDate>1371307431</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-21172,7513), (-14632,9512))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Process Ref="o41"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:EndSymbol Id="o21">
+<a:CreationDate>1371307251</a:CreationDate>
+<a:ModificationDate>1371307429</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-10875,7813), (-9376,9312))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>12615680</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>512</a:GradientFillMode>
+<a:GradientEndColor>12632256</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<a:KeepCenter>1</a:KeepCenter>
+<a:KeepSize>1</a:KeepSize>
+<c:Object>
+<o:ProcessEnd Ref="o42"/>
+</c:Object>
+</o:EndSymbol>
+<o:ProcessSymbol Id="o24">
+<a:CreationDate>1371307450</a:CreationDate>
+<a:ModificationDate>1371307784</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-5033,-1950), (2175,2837))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Process Ref="o43"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:ProcessSymbol Id="o27">
+<a:CreationDate>1371307457</a:CreationDate>
+<a:ModificationDate>1371307802</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((4743,-674), (10225,2388))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Process Ref="o44"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:ProcessSymbol Id="o28">
+<a:CreationDate>1371307458</a:CreationDate>
+<a:ModificationDate>1371307684</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((13450,-724), (20350,2688))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Process Ref="o45"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:ProcessSymbol Id="o31">
+<a:CreationDate>1371307459</a:CreationDate>
+<a:ModificationDate>1371307688</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((22500,238), (28499,2237))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>QNID 0 Arial,8,N
+STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Process Ref="o46"/>
+</c:Object>
+</o:ProcessSymbol>
+<o:EndSymbol Id="o36">
+<a:CreationDate>1371307737</a:CreationDate>
+<a:ModificationDate>1371307826</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((31850,350), (33349,1849))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>12615680</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>512</a:GradientFillMode>
+<a:GradientEndColor>12632256</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<a:KeepCenter>1</a:KeepCenter>
+<a:KeepSize>1</a:KeepSize>
+<c:Object>
+<o:ProcessEnd Ref="o47"/>
+</c:Object>
+</o:EndSymbol>
+</c:Symbols>
+</o:BusinessProcessDiagram>
+</c:BusinessProcessDiagrams>
+<c:DefaultDiagram>
+<o:BusinessProcessDiagram Ref="o4"/>
+</c:DefaultDiagram>
+<c:Processes>
+<o:Process Id="o39">
+<a:ObjectID>9D6C17BC-A7EA-44CD-8FB6-FBFE472B44F2</a:ObjectID>
+<a:Name>Facture en brouillon</a:Name>
+<a:Code>Facture_en_brouillon</a:Code>
+<a:CreationDate>1371307246</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307363</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>1</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+<o:Process Id="o40">
+<a:ObjectID>B887C7D4-BBC1-4558-96DC-0E16EA3BF8BA</a:ObjectID>
+<a:Name>Facture validée</a:Name>
+<a:Code>Facture_validee</a:Code>
+<a:CreationDate>1371307247</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307369</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>2</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+<o:Process Id="o41">
+<a:ObjectID>7E0A8B2C-ADF0-4FF7-8018-723FAC372472</a:ObjectID>
+<a:Name>Facture annulée</a:Name>
+<a:Code>Facture_annulee</a:Code>
+<a:CreationDate>1371307249</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307373</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>3</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+<o:Process Id="o43">
+<a:ObjectID>8284E683-D4D7-4AAD-BDFE-3A1C8C88F973</a:ObjectID>
+<a:Name>Génération d&#39;écriture comptable</a:Name>
+<a:Code>Generation_d_ecriture_comptable</a:Code>
+<a:CreationDate>1371307450</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307560</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>4</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+<o:Process Id="o44">
+<a:ObjectID>9BB252F3-6181-4712-8C79-7381F8E78965</a:ObjectID>
+<a:Name>Paiement des factures</a:Name>
+<a:Code>Paiement_des_factures</a:Code>
+<a:CreationDate>1371307457</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307626</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>5</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+<o:Process Id="o45">
+<a:ObjectID>C7FDF591-F447-4A8E-94D2-BEDC120C6FAB</a:ObjectID>
+<a:Name>Génération d&#39;éccriture paiement</a:Name>
+<a:Code>Generation_d_eccriture_paiement</a:Code>
+<a:CreationDate>1371307458</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307654</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>6</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+<o:Process Id="o46">
+<a:ObjectID>2A077A39-692C-481C-858B-211DB78FEBC9</a:ObjectID>
+<a:Name>Facture payée</a:Name>
+<a:Code>Facture_payee</a:Code>
+<a:CreationDate>1371307459</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307707</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:NumberID>7</a:NumberID>
+<a:ActionType>&lt;Non défini&gt;</a:ActionType>
+</o:Process>
+</c:Processes>
+<c:Flows>
+<o:Flow Id="o13">
+<a:ObjectID>458B8E9B-ABE7-4333-8C1E-8655B2A2088F</a:ObjectID>
+<a:Name>Flux_2</a:Name>
+<a:Code>Flux_2</a:Code>
+<a:CreationDate>1371307306</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307306</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o40"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o39"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o16">
+<a:ObjectID>61734C4C-D649-44FB-9685-D2BD808C7318</a:ObjectID>
+<a:Name>Flux_3</a:Name>
+<a:Code>Flux_3</a:Code>
+<a:CreationDate>1371307385</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307385</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o39"/>
+</c:Object1>
+<c:Object2>
+<o:ProcessStart Ref="o38"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o19">
+<a:ObjectID>388CA24B-6D27-4700-8239-B4CFD7EE7573</a:ObjectID>
+<a:Name>Flux_4</a:Name>
+<a:Code>Flux_4</a:Code>
+<a:CreationDate>1371307435</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307435</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o41"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o39"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o22">
+<a:ObjectID>8360092D-49E3-4A2A-BCC7-E3B052A0D8E0</a:ObjectID>
+<a:Name>Flux_5</a:Name>
+<a:Code>Flux_5</a:Code>
+<a:CreationDate>1371307441</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307441</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:ProcessEnd Ref="o42"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o41"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o25">
+<a:ObjectID>EEECBD3C-E604-423E-80AA-1BCABE809717</a:ObjectID>
+<a:Name>Flux_6</a:Name>
+<a:Code>Flux_6</a:Code>
+<a:CreationDate>1371307721</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307721</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o40"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o29">
+<a:ObjectID>0A4918BD-71FE-4866-B7AC-269DFEDCF44D</a:ObjectID>
+<a:Name>Flux_8</a:Name>
+<a:Code>Flux_8</a:Code>
+<a:CreationDate>1371307728</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307728</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o45"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o44"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o32">
+<a:ObjectID>1C8FBFA7-7B5F-4310-B5D9-AB380F17E1DB</a:ObjectID>
+<a:Name>Flux_9</a:Name>
+<a:Code>Flux_9</a:Code>
+<a:CreationDate>1371307730</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307730</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o46"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o45"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o34">
+<a:ObjectID>4B251C8F-2346-4BB7-B544-C1DE44DDED2F</a:ObjectID>
+<a:Name>Flux_10</a:Name>
+<a:Code>Flux_10</a:Code>
+<a:CreationDate>1371307795</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307795</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:Process Ref="o44"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o43"/>
+</c:Object2>
+</o:Flow>
+<o:Flow Id="o37">
+<a:ObjectID>5A7612D7-AD29-4C6F-8A91-7B4B21580F3E</a:ObjectID>
+<a:Name>Flux_11</a:Name>
+<a:Code>Flux_11</a:Code>
+<a:CreationDate>1371307822</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307822</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:FlowType>Succès</a:FlowType>
+<c:Object1>
+<o:ProcessEnd Ref="o47"/>
+</c:Object1>
+<c:Object2>
+<o:Process Ref="o46"/>
+</c:Object2>
+</o:Flow>
+</c:Flows>
+<c:ProcessStarts>
+<o:ProcessStart Id="o38">
+<a:ObjectID>0B03E0B1-2A2F-453B-A316-569E275B0FD4</a:ObjectID>
+<a:Name>Debut_1</a:Name>
+<a:Code>Debut_1</a:Code>
+<a:CreationDate>1371307242</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307242</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+</o:ProcessStart>
+</c:ProcessStarts>
+<c:ProcessEnds>
+<o:ProcessEnd Id="o42">
+<a:ObjectID>88F0CCB9-7B7E-4E0A-A6E3-64A7424530FA</a:ObjectID>
+<a:Name>Fin_1</a:Name>
+<a:Code>Fin_1</a:Code>
+<a:CreationDate>1371307251</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307251</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:EndType>Succès</a:EndType>
+</o:ProcessEnd>
+<o:ProcessEnd Id="o47">
+<a:ObjectID>D6759D8E-4536-412E-B3F5-71AB3CC83A0F</a:ObjectID>
+<a:Name>Fin_2</a:Name>
+<a:Code>Fin_2</a:Code>
+<a:CreationDate>1371307737</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307737</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:EndType>Succès</a:EndType>
+</o:ProcessEnd>
+</c:ProcessEnds>
+<c:TargetModels>
+<o:TargetModel Id="o48">
+<a:ObjectID>79836143-DE84-4D13-B065-DAB1743E5DD3</a:ObjectID>
+<a:Name>Analyse</a:Name>
+<a:Code>Analysis</a:Code>
+<a:CreationDate>1371307226</a:CreationDate>
+<a:Creator>Ait Mlouk  Addi</a:Creator>
+<a:ModificationDate>1371307226</a:ModificationDate>
+<a:Modifier>Ait Mlouk  Addi</a:Modifier>
+<a:TargetModelURL>file:///%_PRCSLANG%/Analysis.xpl</a:TargetModelURL>
+<a:TargetModelID>193F9613-15E0-4E37-AA33-D39340D3D3FF</a:TargetModelID>
+<a:TargetModelClassID>7141CE88-2107-423A-A5D4-23B73A90B769</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
